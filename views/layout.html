@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trip Planner</title>
+	<link rel="stylesheet" href="/bootstrap/css/bootstrap.css"/>
+
+</head>
+<body>
+	<ul class="nav nav-tabs">
+	  <li role="presentation" class="active"><a href="#">Home</a></li>
+	  <li role="presentation"><a href="#">Profile</a></li>
+	  <li role="presentation"><a href="#">Messages</a></li>
+	</ul>
+	<div class="container">
+	      <div class="row">
+         <div class="col-lg-4 col-md-6 col-sm-12">
+            <h3><i class="icon-folder-open-alt"></i> Many Page Options</h3>
+            <p>This template features many common pages that you might see on a business website. Pages include: about, contact, portfolio variations, blog, pricing, FAQ, 404, services, and general multi-purpose pages.</p>
+          </div>
+        </div><!-- /.row -->
+		<div id="content"> {% block content %} {% endblock %}</div>
+	</div>
+<script src="/jquery/jquery.js"></script>
+</body>
+</html>
+
